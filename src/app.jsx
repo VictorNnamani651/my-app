@@ -6,7 +6,7 @@ export function Test() {
 
   let [first,updateFirst] = useState(0);
   let [second,updateSecond] = useState(0);
-  
+
   return (
   <div className="dialogholder">
     <div className="dialog-box">
@@ -21,7 +21,7 @@ export function Test() {
         </p>
       </div>
       <button className="cal">
-        =
+        ==
       </button>
     </div>
   </div>
