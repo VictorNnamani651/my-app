@@ -10,7 +10,6 @@ html,body{
 }
 
 .dialogholder{
-    border:2px solid blue;
     height:99.4vh;
     width:99.4vw;
     display:flex;

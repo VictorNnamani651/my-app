@@ -2,11 +2,11 @@ import React from "react";
 import { useState } from "react";
 
 
-export function Test() {
+export function Calculator() {
 
   let [first,updateFirst] = useState(0);
   let [second,updateSecond] = useState(0);
-
+  
   return (
   <div className="dialogholder">
     <div className="dialog-box">
@@ -17,12 +17,9 @@ export function Test() {
       </div>
       <div className="total">
         <p className="tvalue">
-          {Number(first) + Number(second)}
+        {Number(first) + Number(second)}
         </p>
       </div>
-      <button className="cal">
-        ==
-      </button>
     </div>
   </div>
   );
