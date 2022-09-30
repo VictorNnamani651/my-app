@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;200;300;400&family=Noto+Sans:wght@100;300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;200;300;400&family=Noto+Sans:wght@100;300;400&family=Orbitron:wght@400;500;600&display=swap');
 *{
     padding:0;
     margin:0;
@@ -25,13 +27,11 @@ img{
 }
 
 .secondSection{
-    /* border:2px solid saddlebrown; */
     background-color:whitesmoke;
     padding:0.5% 0%;
 }
 
 .halfHolder{
-    /* border:2px solid green; */
     display:flex;
     width:90%;
     margin:0 auto;
@@ -39,12 +39,28 @@ img{
     justify-content:space-between;
 }
 
-.firstHalf p{
+.firstHalf p,i{
     display:inline-block;
 }
 
+.fa_star{
+    color:#F68B1E;
+}
+
+.star-text:hover{
+    text-decoration:underline;
+}
+
+.star-text{
+    font-size:small;
+    margin-left:2px;
+}
+
+.firstHalf:hover{
+    cursor:pointer;
+}
+
 .secondHalf{
-    /* border:2px solid salmon; */
     width:80%;
 }
 
@@ -52,6 +68,54 @@ img{
     display:inline-block;
     list-style-type:none;
     margin:0 4%;
+    font-size:14px;
+    font-weight:bold;
+    color:#ACACAC;
+}
+
+.secondHalf li:hover{
+    cursor:pointer;
+}
+
+.secondHalf li i, .secondHalf p{
+    display:inline-block;
+}
+
+.pay:hover{
+    color:blue;
+}
+
+.food:hover{
+    color:#FF9F10;
+}
+
+.party:hover i p{
+    color:#bd770f
+}
+
+.party:hover i{
+    color:rgb(31, 31, 129);
+}
+
+.prime:hover{
+    color:#FF9F10;
+}
+
+.logistics:hover{
+    color:#FF9F10;
+}
+
+.secondHalf p{
+    font-family: 'Orbitron', sans-serif;
+    font-size:13px;
+    padding-left:3px;
+    font-weight:bolder;
+}
+
+.secondHalf .secondHalf-logo{
+    font-weight:bold;
+    font-size:20px;
+    color:black;
 }
 
 .thirdSection{
@@ -67,17 +131,13 @@ img{
     justify-content: space-between;
 }
 
-.logo{
-    /* border:2px solid lawngreen; */
-}
-
 .logo img{
     width:135px;
     height:60px;
 }
 
-.searchBarXbtn{
-    /* border:2px solid saddlebrown; */
+.logo img:hover{
+    cursor:pointer;
 }
 
 .searchBarXbtn input,button{
@@ -97,19 +157,35 @@ img{
 
 .searchBarXbtn button:hover{
     cursor:pointer;
+    background-color:#dd8124;
+}
+
+.fa-search{
+    border:1px solid #C7C7CD;
+    border-radius:5px;
+    padding-left:10px; 
+    color:#a19182
 }
 
 .searchBarXbtn input{
     width:450px;
-    border:1px solid #C7C7CD; 
+    border:0px;
+}
+
+.searchBarXbtn input:focus{
+    outline:none;
 }
 
 .account, .help , .cart{
-    /* border:1px solid; */
     margin-left:1.5%;
     font-size:20px;
     font-style:Segoe UI;
     position:relative;
+}
+
+div.nav-btn:hover{
+    cursor:pointer;
+    color:#F68B1E;
 }
 
 .drop-down{
@@ -127,7 +203,7 @@ img{
 
 .signIn-btn-holder{
     border-bottom:2px solid #EDEDED;
-    padding:10px 0;
+    padding:10px 0%;
 }
 
 .drop-down .signIn{
@@ -144,12 +220,11 @@ img{
 }
 
 .dropdown-options{
-    /* border:1px solid; */
-    padding:2%;
+    padding:3%;
+    color:#695c5c;
 }
 
 .dropdown-options ul{
-    /* border:1px solid; */
     text-align:left;
 }
 

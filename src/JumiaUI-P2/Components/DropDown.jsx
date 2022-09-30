@@ -6,7 +6,7 @@ export default function Dropdown(props){
         updateDisplay(!display);
     }
     return(
-        <div className="account clickable">
+        <div className={props.classname}>
             <div className="nav-btn" onClick={update}>
                 <i className= {props.iconClass1}></i>
                 <p className="tSection">{props.buttonName}</p>
@@ -16,7 +16,6 @@ export default function Dropdown(props){
                     <div className="content">
                        {props.children}
                     </div>
-                    
                 </div>
             </div>
     )

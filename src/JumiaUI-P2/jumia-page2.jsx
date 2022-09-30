@@ -14,19 +14,31 @@ export default function JumiaPage2() {
       <div className="secondSection">
         <div className="halfHolder">
           <div className="firstHalf">
-            <p>
-              <i className="fa fa-star"></i>
-            </p>
-            <p>Sell On Jumia</p>
+              <i className="fa fa-star-half-o fa_star">
+                 <p className="star-text">Sell On Jumia</p>
+              </i>
           </div>
           <div className="secondHalf">
             <ul className="secondHalf-ul">
-              <li>Jumia</li>
-              <li>Pay</li>
-              <li>Food</li>
-              <li>Party</li>
-              <li>Prime</li>
-              <li>Logistics</li>
+              <li className="secondHalf-logo">
+                Jumia
+                <i className="fa fa-star-half-o fa_star"></i>
+              </li>
+              <li className="pay">
+                <i className="fa fa-shield"><p>PAY</p></i>
+                </li>
+              <li className="food">
+              <i className="fa fa-star-half-o"><p>FOOD</p></i>
+              </li>
+              <li className="party">
+              <i className="fa fa-glass"><p>PARTY</p></i>
+              </li>
+              <li className="prime">
+              <i className="fa fa-trophy"><p>PRIME</p></i>
+              </li>
+              <li className="logistics">
+              <i className="fa fa-shopping-bag"><p>LOGISTICS</p></i>
+              </li>
             </ul>
           </div>
         </div>
@@ -37,10 +49,9 @@ export default function JumiaPage2() {
             <img src={logoPath} alt="" />
           </div>
           <div className="searchBarXbtn">
-            <input
-              type="text"
-              placeholder="Search products,brands and categories"
-            />
+            <i className="fa fa-search">
+            <input type="text" placeholder="Search products,brands and categories"/>
+            </i>
             <button className="clickable">Search</button>
           </div>
           <Dropdown
@@ -90,7 +101,7 @@ export default function JumiaPage2() {
         </div>
       </div>
 
-      <div className="fourthSection">
+      {/* <div className="fourthSection">
         <div className="fourthSectionCenter">
           <div className="categories">1</div>
           <div className="fourthSectionAD">
@@ -99,7 +110,7 @@ export default function JumiaPage2() {
           <div className="subAD1">3</div>
           <div className="subAD2">4</div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
