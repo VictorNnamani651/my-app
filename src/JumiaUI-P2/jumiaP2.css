@@ -95,6 +95,10 @@ img{
     box-shadow:2px 5px 10px -7px black;
 }
 
+.searchBarXbtn button:hover{
+    cursor:pointer;
+}
+
 .searchBarXbtn input{
     width:450px;
     border:1px solid #C7C7CD; 
