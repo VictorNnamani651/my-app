@@ -8,7 +8,7 @@ export default function JumiaPage2() {
   return (
     <div className="main-body">
       <div className="firstSection">
-        <img src={imgPath} className="clickable" alt="" />
+        <img src={imgPath} className="clickable" alt=""/>
       </div>
 
       <div className="secondSection">
@@ -55,11 +55,11 @@ export default function JumiaPage2() {
             <button className="clickable">Search</button>
           </div>
           <Dropdown
-            classname="account clickable"
-            iconClass1="fa fa-user"
-            paraClass="tSection"
-            iconClass2="fa fa-caret-down"
+            classname="account pointer"
+            iconClass1="fa fa-user-o icon-g"
+            iconClass2="fa fa-caret-down icon-g"
             buttonName="Account"
+            buttonID="account-btn"
           >
             <div className="signIn-btn-holder">
               <button className="signIn">Sign In</button>
@@ -83,34 +83,23 @@ export default function JumiaPage2() {
           </Dropdown>
 
           <Dropdown
-            classname="help clickable"
-            iconClass1="fa fa-question-circle-o tSection"
-            paraClass="tSection"
-            iconClass2="fa fa-caret-down"
+            classname="help pointer"
+            iconClass1="fa fa-question-circle-o icon-g"
+            iconClass2="fa fa-caret-down icon-g"
             buttonName="Help"
+            buttonID="help-btn"
           >
             <p>Hello</p>
           </Dropdown>
 
           <Dropdown
-            classname="cart clickable"
-            iconClass1="fa fa-cart-plus tSection"
-            paraClass="tSection"
+            classname="cart pointer"
+            iconClass1="fa fa-cart-plus icon-g"
             buttonName="Cart"
+            buttonID="cart-btn"
           />
         </div>
       </div>
-
-      {/* <div className="fourthSection">
-        <div className="fourthSectionCenter">
-          <div className="categories">1</div>
-          <div className="fourthSectionAD">
-            <img src={fourthSectionAD} alt="" />
-          </div>
-          <div className="subAD1">3</div>
-          <div className="subAD2">4</div>
-        </div>
-      </div> */}
     </div>
   );
 }

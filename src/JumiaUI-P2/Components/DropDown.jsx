@@ -7,7 +7,7 @@ export default function Dropdown(props){
     }
     return(
         <div className={props.classname}>
-            <div className="nav-btn" onClick={update}>
+            <div id={props.buttonID} onClick={update}>
                 <i className= {props.iconClass1}></i>
                 <p className="tSection">{props.buttonName}</p>
                 <i className={props.iconClass2}></i>
