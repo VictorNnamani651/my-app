@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;200;300;400&family=Noto+Sans:wght@100;300;400&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;200;300;400&family=Noto+Sans:wght@100;300;400&family=Orbitron:wght@400;500;600&display=swap');
+
 *{
     padding:0;
     margin:0;
+    user-select:none;
 }
+
 html,body{
     height:100vh;
     width:100vw;
@@ -39,7 +42,7 @@ img{
     justify-content:space-between;
 }
 
-.firstHalf p,i{
+.firstHalf p, .firstHalf i{
     display:inline-block;
 }
 
@@ -127,7 +130,6 @@ img{
 }
 
 .thirdSection-center{
-    /* border:1px solid; */
     width:90%;
     margin:0 auto;
     display:flex;
@@ -144,7 +146,7 @@ img{
     cursor:pointer;
 }
 
-.searchBarXbtn input,button{
+.searchBarXbtn input,.searchBarXbtn button{
     padding:10px 9px;
     font-size:large;
     border-radius:5px;
@@ -183,7 +185,6 @@ img{
 .account, .help , .cart{
     margin-left:1.5%;
     font-size:20px;
-    font-style:Segoe UI;
     position:relative;
 }
 
@@ -223,14 +224,12 @@ p.tSection{
 }
 
 i.icon-g{
-    /* border:1px solid; */
     color:#767676;
     font-size:25px;
 }
 
 .fa-caret-down{
     color:#767676;
-    font-size:;
 }
 
 .drop-down{
@@ -240,7 +239,6 @@ i.icon-g{
     background-color: #fff;
     left:-50px;
     width:230px;
-    text-align:center;
     z-index:999999;
     padding:1% 0.5%;
     box-shadow:2px 5px 21px -3px black;
@@ -248,7 +246,8 @@ i.icon-g{
 
 .signIn-btn-holder{
     border-bottom:2px solid #EDEDED;
-    padding:10px 0%;
+    padding:10px 0px;
+    text-align:center;
 }
 
 .drop-down .signIn{
@@ -257,6 +256,10 @@ i.icon-g{
     border:0px;
     width:60%;
     box-shadow:2px 5px 10px -7px black;
+    padding:10px 0px;
+    border-radius:5px;
+    font-family: 'Inter Tight',sans-serif;
+    font-size:14px;
 }
 
 .signIn:hover{
@@ -292,13 +295,22 @@ i.icon-g{
 }
 
 .dropdown-options ul li p{
-    /* border:1px solid; */
     padding:0px;
     margin:0px;
     padding-left:10px;
-    /* background-color: red; */
     flex:15;
     font-size:15px;
+}
+
+ul.help-options{
+    border:1px solid;
+    list-style-type:none;
+}
+
+ul.help-options li{
+    border:1px solid green;
+    text-align:left;
+    padding:0px 5px;
 }
 
 .hide{

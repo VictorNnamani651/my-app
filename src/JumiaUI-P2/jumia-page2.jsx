@@ -1,7 +1,7 @@
 import React from "react";
 import imgPath from "./images/Tcl-top-strip.gif";
 import logoPath from "./images/Jumia-Logo.png";
-import fourthSectionAD from "./images/Brand-day-slider-live-now.gif";
+// import fourthSectionAD from "./images/Brand-day-slider-live-now.gif";
 import Dropdown from "./Components/DropDown";
 
 export default function JumiaPage2() {
@@ -59,10 +59,9 @@ export default function JumiaPage2() {
             iconClass1="fa fa-user-o icon-g"
             iconClass2="fa fa-caret-down icon-g"
             buttonName="Account"
-            buttonID="account-btn"
           >
             <div className="signIn-btn-holder">
-              <button className="signIn">Sign In</button>
+              <button className="signIn">SIGN IN</button>
             </div>
             <div className="dropdown-options">
               <ul>
@@ -83,20 +82,30 @@ export default function JumiaPage2() {
           </Dropdown>
 
           <Dropdown
-            classname="help pointer"
+            classname="help"
             iconClass1="fa fa-question-circle-o icon-g"
             iconClass2="fa fa-caret-down icon-g"
             buttonName="Help"
-            buttonID="help-btn"
           >
-            <p>Hello</p>
+            <ul className="help-options">
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+              <li>4</li>
+              <li>5</li>
+            </ul>
+            <div className="live-chat-btn-holder">
+              <button className="live-chat pointer">
+                <i className="fa fa-wechat"></i>
+                <p>LIVE CHAT</p>
+              </button>
+            </div>
           </Dropdown>
 
           <Dropdown
             classname="cart pointer"
             iconClass1="fa fa-cart-plus icon-g"
             buttonName="Cart"
-            buttonID="cart-btn"
           />
         </div>
       </div>
