@@ -1,7 +1,9 @@
 import React from "react";
 import imgPath from "./images/Tcl-top-strip.gif";
 import logoPath from "./images/Jumia-Logo.png";
-// import fourthSectionAD from "./images/Brand-day-slider-live-now.gif";
+import fourthSectionAD from "./images/Brand-day-slider-live-now.gif";
+import MiniAD from "./images/Top-PickUp.gif";
+import MiniAD2 from "./images/fourth-sect-mini-ad.jpg"
 import Dropdown from "./Components/DropDown";
 
 export default function JumiaPage2() {
@@ -88,17 +90,17 @@ export default function JumiaPage2() {
             buttonName="Help"
           >
             <ul className="help-options">
-              <li>1</li>
-              <li>2</li>
-              <li>3</li>
-              <li>4</li>
-              <li>5</li>
+              <li>Help Center</li>
+              <li>Place & Track Order</li>
+              <li>Order cancellation</li>
+              <li>Return & Refunds</li>
+              <li>Payment & Jumia accounts</li>
             </ul>
-            <div className="live-chat-btn-holder">
-              <button className="live-chat pointer">
-                <i className="fa fa-wechat"></i>
+            <div className="help-options-btn-holder">
+              <button className="live-chat">
+              <i className="fa fa-wechat"></i>
                 <p>LIVE CHAT</p>
-              </button>
+                </button>
             </div>
           </Dropdown>
 
@@ -107,6 +109,35 @@ export default function JumiaPage2() {
             iconClass1="fa fa-cart-plus icon-g"
             buttonName="Cart"
           />
+        </div>
+      </div>
+      <div className="fourth-section">
+        <div className="fourth-section-center">
+          <div className="div1">
+            <ul>
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+              <li>4</li>
+              <li>5</li>
+              <li>6</li>
+              <li>7</li>
+              <li>8</li>
+              <li>9</li>
+              <li>10</li>
+              <li>11</li>
+              <li>12</li>
+            </ul>
+          </div>
+          <div className="div2">
+            <img src={fourthSectionAD} alt="" />
+          </div>
+          <div className="div3">
+            <img src={MiniAD} alt="" />
+          </div>
+          <div className="div4">
+            <img src={MiniAD2} alt="" />
+          </div>
         </div>
       </div>
     </div>

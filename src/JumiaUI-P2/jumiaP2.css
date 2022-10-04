@@ -302,18 +302,123 @@ i.icon-g{
     font-size:15px;
 }
 
-ul.help-options{
-    border:1px solid;
-    list-style-type:none;
+.help .drop-down{
+    width:200px;
 }
 
-ul.help-options li{
-    border:1px solid green;
-    text-align:left;
+.help-options{
+    border-bottom:2px solid #EDEDED;
+    list-style-type:none;
+   
+}
+
+.help-options li{
+    padding:5%;
+    font-size:15px;
+    color:#695c5c;
+}
+
+.help-options li:hover{
+    background-color:rgba(0, 0, 0, 0.1);
+    cursor:pointer;
+}
+
+.help-options-btn-holder{
+    /* background-color:red; */
+    display:flex;
+    justify-content:center;
+    padding:10px;
+}
+
+.live-chat{
+    background-color:#F68B1E;
+    color:white;
+    border:0px;
+    width:80%;
+    box-shadow:2px 5px 10px -7px black;
+    padding:10px 0px;
+    border-radius:4px;
+    font-family: 'Inter Tight',sans-serif;
+    font-size:14px;
+    font-weight:bolder;
+}
+
+.live-chat:hover{
+    cursor:pointer;
+    background-color:#d17c27;
+}
+
+.live-chat i{
+    margin-right:7px;
+    display:inline-block;
+    /* border:1px solid green; */
     padding:0px 5px;
+    font-size:20px;
+}
+
+.live-chat p{
+    display:inline-block;
+    /* border:1px solid turquoise; */
+    margin-right:20px
 }
 
 .hide{
     display:none;
 }
 
+.fourth-section-center{
+    width:90%;
+    margin:15px auto 0 auto;
+    display:grid;
+    grid-template-columns:0.5fr auto 0.5fr;
+    grid-template-rows:auto auto;
+    gap:15px;
+}
+
+.div1{
+    background-color:#fff;
+    grid-row:1 / 3;
+    border-radius:5px;
+}
+
+.div1 ul{
+    list-style-type:none;
+    
+}
+
+.div2{
+    background-color:teal;
+    grid-row:1 / 3;
+    grid-column:2 / 3;
+    display:flex;
+    justify-content:center;
+    border-radius:5px;
+}
+
+.div2 img{
+    width:100%;
+    border-radius:5px;
+}
+
+.div3{
+    background-color:royalblue;
+    border-radius:5px;
+    display:flex;
+}
+
+.div3 img{
+    width:100%;
+    border-radius:inherit;
+}
+
+.div4{
+    background-color: #fff;
+    grid-column:3 / 4;
+    border-radius:5px;
+    display:flex;
+}
+
+.div4 img{
+    width:100%;
+    border-radius:inherit;
+}
