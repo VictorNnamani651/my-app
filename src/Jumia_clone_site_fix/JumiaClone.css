@@ -405,11 +405,10 @@ i.fa-caret-down{
         flex-wrap:nowrap;
         align-items:center;
         justify-content:center;
-        /* border:1px solid green; */
     }
 
     .fsect1 a p{
-        font-size:4vw;
+        font-size:5vw;
         display:inline-block;
         color:black;
         font-weight:600;
@@ -433,14 +432,14 @@ i.fa-caret-down{
     .fsect2 .account-link{
         text-decoration:none;
         color:#000000;
-        font-size:3vw;
+        font-size:4vw;
         padding:0 3%;
     }
     
     .fsect2 .cart-link{
         text-decoration:none;
         color:#000000;
-        font-size:3vw;
+        font-size:4vw;
         margin:0 2%;
         padding:0 3%;
     }
@@ -469,12 +468,12 @@ i.fa-caret-down{
         display:flex;
         align-items:baseline;
         background-color: #fff;
-        font-size:2vw;
+        font-size:3vw;
     }
 
     div.search-bar i.fa-search input{
         padding:0.9%;
-        font-size:2vw;
+        font-size:3vw;
         border-radius:inherit;
         width:inherit;
         border:0px;
@@ -493,7 +492,7 @@ i.fa-caret-down{
     div.third-section-mv p{
         width:fit-content;
         margin:0 auto;
-        font-size:2vw;
+        font-size:3vw;
         font-weight:500;
     }
     
