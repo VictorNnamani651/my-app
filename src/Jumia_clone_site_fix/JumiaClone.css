@@ -384,7 +384,6 @@ i.fa-caret-down{
         display:flex;
         align-items:baseline;
         flex-wrap:nowrap;
-        /* border:1px solid green; */
     }
 
     .fsect1{
@@ -393,13 +392,11 @@ i.fa-caret-down{
         align-items:baseline;
         justify-content:flex-start;
         flex-wrap:nowrap;
-        /* border:1px solid red; */
     }
     
     .fsect1 i.fa-navicon{
-        font-size:3vw;
+        font-size:5vw;
         padding:2% 4%;
-        /* border:1px solid blue; */
     }
 
     .fsect1 a{
