@@ -1,20 +1,39 @@
-import React from "react";
-import imgPath from "./images/Tcl-top-strip.gif";
+import React from "react"
+import "./JumiaClone.css"
+import firstSectionImage from "./images/Free-delivery-top-strip.gif"
 import logoPath from "./images/Jumia-Logo.png";
-import fourthSectionAD from "./images/Brand-day-slider-live-now.gif";
-import MiniAD from "./images/Top-PickUp.gif";
-import MiniAD2 from "./images/fourth-sect-mini-ad.jpg"
-import Dropdown from "./Components/DropDown"
-import "./jumiaP2.css";
+import Dropdown from "./components/dropdown"
+// import jumiaLogo from "./images/jumia-clone-logo.png"
+export default function JumiaCloneFix(){
+    return(
+        <div className="main-body">
+{/* ============FIRST SECTION DESKTOP AND MOBILE VIEW====================================================================================================== */}
+            <div className="first-section-dv desktop-view">
+                <a href="random">
+                <img src={firstSectionImage} alt=""/>
+                </a>
+            </div>
+            <div className="first-section-mv mobile-view">
+                <div className="fsect1">
+                    <i className="fa fa-navicon"></i>
+                    <a href="random">
+                    <p>JUMIA</p>
+                    <i className="fa fa-star-half-empty"></i>
+                    </a>
+                </div>
+                <div className="fsect2">
+                    <a href="random" className="account-link">
+                    <i className="fa fa-user-o"></i>
+                    </a>
+                    <a href="random" className="cart-link">
+                    <i className="fa fa-cart-plus"></i>
+                    </a>
+                </div>
+            </div>
+{/*---------------------------------------------------------------------------------------------------------------------------------------------------------*/}
 
-export default function JumiaPage2() {
-  return (
-    <div className="main-body">
-      <div className="firstSection">
-        <img src={imgPath} className="clickable" alt=""/>
-      </div>
-
-      <div className="secondSection">
+{/* =============SECOND SECTION DESKTOP AND MOBILE VIEW===================================================================================================== */}
+            <div className="second-section-dv desktop-view">
         <div className="halfHolder">
           <div className="firstHalf">
               <i className="fa fa-star-half-o fa_star">
@@ -46,11 +65,22 @@ export default function JumiaPage2() {
           </div>
         </div>
       </div>
-      <div className="thirdSection">
-        <div className="thirdSection-center">
-          <div className="logo clickable">
-            <img src={logoPath} alt="" />
-          </div>
+
+      <div className="second-section-mv mobile-view">
+      <div className="search-bar">
+        <i className="fa fa-search">
+        <input type="text" placeholder="Search products,brands and categories"/>
+        </i>
+      </div>
+      </div>
+{/* ------------------------------------------------------------------------------------------------------------------------------------------------------- */}
+
+{/* ===========================THIRD SECTION DESKTOP AND MOBILE VIEW======================================================================================== */}
+      <div className="third-section-dv desktop-view">
+        <div className="third-section-center">
+            <a href="random" className="logo-link logo clickable">
+                <img src={logoPath} alt=""/>
+            </a>
           <div className="searchBarXbtn">
             <i className="fa fa-search">
             <input type="text" placeholder="Search products,brands and categories"/>
@@ -112,43 +142,9 @@ export default function JumiaPage2() {
           />
         </div>
       </div>
-      <div className="fourth-section">
-        <div className="fourth-section-center">
-          <div className="div1">
-            <ul>
-              <li>
-                <i className="fa fa-apple"></i>
-                Supermarket
-              </li>
-              <li>Health & Beauty</li>
-              <li>Home & Office</li>
-              <li>Phones & Tablets</li>
-              <li> Computing</li>
-              <li>Electronics</li>
-              <li>Fashion</li>
-              <li>Baby Products</li>
-              <li>Gaming</li>
-              <li>Sporting Goods</li>
-              <li>Auto Mobile</li>
-              <li>
-                <i className="fa fa-s"></i>
-                Other Categories
-              </li>
-            </ul>
-          </div>
-          <div className="div2 pointer">
-            <img src={fourthSectionAD} alt="" />
-          </div>
-          <div className="d3xd4-holder">
-            <div className="div3 pointer">
-            <img src={MiniAD} alt="" />
-          </div>
-          <div className="div4 pointer">
-            <img src={MiniAD2} alt="" />
-          </div>
-          </div>
-        </div>
+      <div className="third-section-mv mobile-view">
+        <p>Free Delivery In Lagos, Ibadan & Abuja</p>
       </div>
-    </div>
-  );
+        </div>
+    )
 }
