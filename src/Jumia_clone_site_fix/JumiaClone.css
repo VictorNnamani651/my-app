@@ -397,6 +397,7 @@ i.fa-caret-down{
     .fsect1 i.fa-navicon{
         font-size:5vw;
         padding:2% 4%;
+        margin-right:5%;
     }
 
     .fsect1 a{
@@ -495,5 +496,4 @@ i.fa-caret-down{
         font-size:3vw;
         font-weight:500;
     }
-    
 }
