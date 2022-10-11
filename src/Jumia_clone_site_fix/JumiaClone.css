@@ -460,7 +460,7 @@ i.fa-caret-down{
     .first-section-mv .side-menu-background-main{
         background-color:rgba(0, 0, 0, 0.151);
         width:100vw;
-        height:100vw;
+        height:100vh;
         position:absolute;
     }
 
@@ -491,13 +491,13 @@ i.fa-caret-down{
 
     .live-help-mv button.live-help-btn-mv{
         background-color:white;
+        padding:2% 9% 2% 0%;
         border:0px;
-        padding:2% 0.5%;
         font-family: 'Inter Tight',sans-serif;
         display:flex;
         align-items:center;
         justify-content:space-between;
-        width:20%;
+        width:30%;
     }
 
     button.live-help-btn-mv i{
