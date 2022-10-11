@@ -7,9 +7,9 @@ import Dropdown from "./components/dropdown";
 export default function JumiaCloneFix(){
 // mobile view navigation icon/side menu function=========================
   const [initialIcon,updateIcon] = useState("fa fa-navicon");
-  const [initialDisplay,updateSideMenu] = useState("side-menu-background-main ")
+  const [initialDisplay,updateSideMenu] = useState("side-menu-background-main hide-mv")
   function updateNavicon(){
-    if(initialIcon == "fa fa-navicon"){
+    if(initialIcon === "fa fa-navicon"){
       updateIcon("fa fa-close");
       updateSideMenu("side-menu-background-main");
     } else{
