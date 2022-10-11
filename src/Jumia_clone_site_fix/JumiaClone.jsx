@@ -14,7 +14,7 @@ export default function JumiaCloneFix(){
       updateSideMenu("side-menu-background-main");
     } else{
       updateIcon("fa fa-navicon");
-      updateSideMenu("side-menu-background-main hide");
+      updateSideMenu("side-menu-background-main hide-mv");
     }
     
   }

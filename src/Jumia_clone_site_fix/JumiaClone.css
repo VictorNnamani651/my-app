@@ -601,4 +601,8 @@ i.fa-caret-down{
         font-size:3vw;
         font-weight:500;
     }
+
+    .hide-mv{
+        display:none;
+    }
 }
