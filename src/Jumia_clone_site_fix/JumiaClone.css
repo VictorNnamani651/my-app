@@ -5,6 +5,7 @@
 *{
     padding:0;
     margin:0;
+    user-select:none;
 }
 
 html,body{
@@ -394,10 +395,16 @@ i.fa-caret-down{
         flex-wrap:nowrap;
     }
     
-    .fsect1 i.fa-navicon{
-        font-size:5vw;
-        padding:1vw 3vw;
+    .fsect1 button{
+        background-color:transparent;
+        border:0px;
         margin-right:3vw;
+        z-index:100;
+    }
+
+    .fsect1 button i.fa{
+        font-size:3.5vw;
+        padding:1vw 3vw;
     }
 
     .fsect1 a{
@@ -406,6 +413,7 @@ i.fa-caret-down{
         flex-wrap:nowrap;
         align-items:center;
         justify-content:center;
+        z-index:100;
     }
 
     .fsect1 a p{
@@ -447,6 +455,103 @@ i.fa-caret-down{
 
     .fsect2 a i.fa{
         font-weight:500;
+    }
+
+    .first-section-mv .side-menu-background-main{
+        background-color:rgba(0, 0, 0, 0.151);
+        width:100vw;
+        height:100vw;
+        position:absolute;
+    }
+
+    .side-menu-background-main .side-menu-background-sub{
+        background-color:#fff;
+        width:80%;
+        height:99.9%;
+        border:1px solid white;
+    }
+
+    .side-menu-background-sub .side-menu{
+        background-color:#fff;
+        width:100%;
+        height:90%;
+        margin-top:12%;
+    }
+
+    .side-menu .live-help-mv{
+        border-top:1px solid rgba(0, 0, 0, 0.226);
+        border-bottom:1px solid rgba(0, 0, 0, 0.226);
+    }
+
+    .live-help-mv a{
+        text-decoration:none;
+        display:block;
+        padding-left:26px;
+    }
+
+    .live-help-mv button.live-help-btn-mv{
+        background-color:white;
+        border:0px;
+        padding:2% 0.5%;
+        font-family: 'Inter Tight',sans-serif;
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        width:20%;
+    }
+
+    button.live-help-btn-mv i{
+        font-size:3.5vw;
+    }
+
+    button.live-help-btn-mv p{
+        font-size:2.5vw;
+        font-weight:400;
+    }
+
+    .side-menu div.my-jumia-account{
+        border-bottom:1px solid rgba(0, 0, 0, 0.226);
+    }
+
+    .my-jumia-account .heading a{
+        color:#f68b1e;
+        text-decoration:none;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        padding:1.5vw 0px;
+        font-size:2.4vw;
+        font-weight:700;
+        padding-left:20px;
+    }
+
+    .my-jumia-account .heading a i{
+        margin-right:2.5%;
+        color:rgba(0, 0, 0, 0.658);
+    }
+
+    .my-jumia-account-items ul li{
+        list-style-type:none;
+    }
+
+    .my-jumia-account-items ul li a{
+        color:black;
+        display:block;
+        padding:2vw 0px;
+        padding-left:20px;
+    }
+
+    .my-jumia-account-items ul li a i{
+        display:inline-block;
+        margin-right:2%;
+        font-size:3vw;
+        color:black;
+    }
+
+    .my-jumia-account-items ul li a p{
+        display:inline-block;
+        font-weight:600;
+        font-size:2.2vw;
     }
 
     div.second-section-mv{

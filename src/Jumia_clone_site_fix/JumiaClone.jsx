@@ -1,10 +1,23 @@
-import React from "react"
-import "./JumiaClone.css"
-import firstSectionImage from "./images/Free-delivery-top-strip.gif"
+import React,{ useState } from "react";
+import "./JumiaClone.css";
+import firstSectionImage from "./images/Free-delivery-top-strip.gif";
 import logoPath from "./images/Jumia-Logo.png";
-import Dropdown from "./components/dropdown"
-// import jumiaLogo from "./images/jumia-clone-logo.png"
+import Dropdown from "./components/dropdown";
+
 export default function JumiaCloneFix(){
+// mobile view navigation icon/side menu function=========================
+  const [initialIcon,updateIcon] = useState("fa fa-navicon");
+  const [initialDisplay,updateSideMenu] = useState("side-menu-background-main ")
+  function updateNavicon(){
+    if(initialIcon == "fa fa-navicon"){
+      updateIcon("fa fa-close");
+      updateSideMenu("side-menu-background-main");
+    } else{
+      updateIcon("fa fa-navicon");
+      updateSideMenu("side-menu-background-main hide");
+    }
+    
+  }
     return(
         <div className="main-body">
 {/* ============FIRST SECTION DESKTOP AND MOBILE VIEW====================================================================================================== */}
@@ -13,9 +26,12 @@ export default function JumiaCloneFix(){
                 <img src={firstSectionImage} alt=""/>
                 </a>
             </div>
+            {/* ==mobile==---------------------=====================------------------ */}
             <div className="first-section-mv mobile-view">
                 <div className="fsect1">
-                    <i className="fa fa-navicon"></i>
+                  <button onClick={updateNavicon}>
+                    <i className={initialIcon}></i>
+                  </button>
                     <a href="random">
                     <p>JUMIA</p>
                     <i className="fa fa-star-half-empty"></i>
@@ -28,6 +44,56 @@ export default function JumiaCloneFix(){
                     <a href="random" className="cart-link">
                     <i className="fa fa-cart-plus"></i>
                     </a>
+                </div>
+                <div className={initialDisplay}>
+                  <div className="side-menu-background-sub">
+                  <div className="side-menu">
+                  <div className="live-help-mv">
+                  <a href="random">
+                    <button className="live-help-btn-mv">
+                      <i className="fa fa-wechat wechat-mv"></i>
+                      <p>Live Help</p>
+                    </button>
+                  </a> 
+                  </div>
+                  <div className="my-jumia-account">
+                    <div className="heading">
+                      <a href="random">
+                        <p>My Jumia Account</p>
+                        <i className="fa fa-caret-right"></i>
+                      </a>
+                    </div>
+                    <div className="my-jumia-account-items">
+                      <ul>
+                        <li>
+                          <a href="random">
+                          <i className="fa fa-archive"></i>
+                          <p>Orders</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="random">
+                          <i className="fa fa-commenting-o"></i>
+                          <p>Pending Reviews</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="random">
+                          <i className="fa fa-ticket"></i>
+                          <p>Voucher</p>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="random">
+                          <i className="fa fa-heart-o"></i>
+                          <p>Saved Items</p>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                </div>
                 </div>
             </div>
 {/*---------------------------------------------------------------------------------------------------------------------------------------------------------*/}
@@ -65,6 +131,8 @@ export default function JumiaCloneFix(){
           </div>
         </div>
       </div>
+
+      {/* ==mobile== */}
 
       <div className="second-section-mv mobile-view">
       <div className="search-bar">
@@ -115,7 +183,7 @@ export default function JumiaCloneFix(){
           </Dropdown>
 
           <Dropdown
-            classname="help"
+            classname="help pointer"
             iconClass1="fa fa-question-circle-o icon-g"
             iconClass2="fa fa-caret-down icon-g"
             buttonName="Help"
@@ -142,6 +210,9 @@ export default function JumiaCloneFix(){
           />
         </div>
       </div>
+
+      {/* ==mobile== */}
+
       <div className="third-section-mv mobile-view">
         <p>Free Delivery In Lagos, Ibadan & Abuja</p>
       </div>
