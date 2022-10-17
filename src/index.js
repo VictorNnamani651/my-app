@@ -1,7 +1,6 @@
 import React from "react";
-import  ReactDOM  from "react-dom/client";
-import JumiaCloneFix from "./Jumia_clone_site_fix/JumiaClone"
-
+import ReactDOM from "react-dom/client";
+import JumiaCloneFix from "./Jumia_clone_site_fix/JumiaClone";
 
 // import JumiaPage2 from "./JumiaUI-P2/jumia-page2"
 // import "./style.css";
@@ -13,4 +12,4 @@ import JumiaCloneFix from "./Jumia_clone_site_fix/JumiaClone"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<JumiaCloneFix/>);
+root.render(<JumiaCloneFix />);
