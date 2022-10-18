@@ -482,6 +482,8 @@ i.fa-caret-down {
     background-color: #fff;
     width: 100%;
     margin-top: 12%;
+    position:relative;
+    z-index: 200;
   }
 
   .side-menu .live-help-mv {
