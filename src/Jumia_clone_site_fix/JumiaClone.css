@@ -538,10 +538,15 @@ i.fa-caret-down {
   }
 
   .my-jumia-account .heading a i,
-  .our-categories .heading a i,
-  .our-services .heading a i {
+  .our-categories .heading a a,
+  .our-services .heading a a{
     margin-right: 2.5%;
     color: rgba(0, 0, 0, 0.658);
+  }
+
+  .our-categories .heading a a,
+  .our-services .heading a a{
+    text-decoration:underline;
   }
 
   .my-jumia-account-items ul li,

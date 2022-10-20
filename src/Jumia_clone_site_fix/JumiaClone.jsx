@@ -61,7 +61,7 @@ export default function JumiaCloneFix() {
                 <div className="heading">
                   <a href="random">
                     <p>MY JUMIA ACCOUNT</p>
-                    <i className="fa fa-caret-right"></i>
+                    <i className="fa fa-angle-right"></i>
                   </a>
                 </div>
                 <div className="my-jumia-account-items">
@@ -97,80 +97,80 @@ export default function JumiaCloneFix() {
                 <div className="heading">
                   <a href="random">
                     <p>OUR CATEGORIES</p>
-                    <i className="fa fa-caret-right"></i>
+                    <a href="random">see all</a>
                   </a>
                 </div>
                 <div className="our-categories-items">
                   <ul>
                     <li>
                       <a href="random">
-                        <i className="fa  fa-cube"></i>
+                        <i className="fa fa-opencart"></i>
                         <p>Supermarket</p>
                       </a>
                     </li>
                     <li>
                       <a href="random">
-                        <i className="fa fa-commenting-o"></i>
+                        <i className="fa  fa-heartbeat"></i>
                         <p>Health & Beauty</p>
                       </a>
                     </li>
                     <li>
                       <a href="random">
-                        <i className="fa fa-ticket"></i>
+                        <i className="fa  fa-home"></i>
                         <p>Home & Office</p>
                       </a>
                     </li>
                     <li>
                       <a href="random">
-                        <i className="fa fa-heart-o"></i>
+                        <i className="fa fa-tablet"></i>
                         <p>Phone & Tablets</p>
                       </a>
                     </li>
                     <li>
                       <a href="random">
-                        <i className="fa fa-heart-o"></i>
+                        <i className="fa fa-laptop"></i>
                         <p>Computing</p>
                       </a>
                     </li>
                     <li>
                       <a href="random">
-                        <i className="fa fa-heart-o"></i>
+                        <i className="fa fa-plug"></i>
                         <p>Electronics</p>
                       </a>
                     </li>
                     <li>
                       <a href="random">
-                        <i className="fa fa-heart-o"></i>
+                        <i className="fa fa-female"></i>
                         <p>Women's Fashion</p>
                       </a>
                     </li>
                     <li>
                       <a href="random">
-                        <i className="fa fa-heart-o"></i>
+                        <i className="fa fa-male"></i>
                         <p>Men's Fashion</p>
                       </a>
                     </li>
                     <li>
                       <a href="random">
-                        <i className="fa fa-heart-o"></i>
+                        <i className="fa fa-child"></i>
                         <p>Baby Products</p>
                       </a>
                     </li>
                     <li>
                       <a href="random">
-                        <i className="fa fa-heart-o"></i>
+                        <i className="fa fa-gamepad"></i>
                         <p>Gaming</p>
                       </a>
                     </li>
                     <li>
                       <a href="random">
-                        <i className="fa fa-heart-o"></i>
+                        <i className="fa fa-soccer-ball-o"></i>
                         <p>Sporting Goods</p>
                       </a>
                     </li>
                     <li>
                       <a href="random">
-                        <i className="fa fa-heart-o"></i>
+                        <i className="fa fa-car"></i>
                         <p>Automobile</p>
                       </a>
                     </li>
@@ -181,38 +181,38 @@ export default function JumiaCloneFix() {
                 <div className="heading">
                   <a href="random">
                     <p>OUR SERVICES</p>
-                    <i className="fa fa-caret-right"></i>
+                    <a href="random">see all</a>
                   </a>
                 </div>
                 <div className="our-services-items">
                   <ul>
                     <li>
                       <a href="random">
-                        <i className="fa  fa-cube"></i>
+                      <i className="fa fa-star-half-o"></i>
                         <p>Jumia Prime</p>
                       </a>
                     </li>
                     <li>
                       <a href="random">
-                        <i className="fa fa-commenting-o"></i>
+                      <i className="fa fa-star-half-o"></i>
                         <p>Pay Airtime & Bills</p>
                       </a>
                     </li>
                     <li>
                       <a href="random">
-                        <i className="fa fa-ticket"></i>
+                      <i className="fa fa-star-half-o"></i>
                         <p>Pay Electricity Bills</p>
                       </a>
                     </li>
                     <li>
                       <a href="random">
-                        <i className="fa fa-heart-o"></i>
+                      <i className="fa fa-star-half-o"></i>
                         <p>Pay Internet Bills</p>
                       </a>
                     </li>
                     <li>
                       <a href="random">
-                        <i className="fa fa-heart-o"></i>
+                      <i className="fa fa-star-half-o"></i>
                         <p>Buy Data</p>
                       </a>
                     </li>
