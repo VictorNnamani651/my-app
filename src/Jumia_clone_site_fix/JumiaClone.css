@@ -544,9 +544,10 @@ i.fa-caret-down {
     color: rgba(0, 0, 0, 0.658);
   }
 
-  .our-categories .heading a a,
-  .our-services .heading a a{
+  .our-categories .heading a .see-all,
+  .our-services .heading a .see-all{
     text-decoration:underline;
+    color:black;
   }
 
   .my-jumia-account-items ul li,

@@ -97,7 +97,7 @@ export default function JumiaCloneFix() {
                 <div className="heading">
                   <a href="random">
                     <p>OUR CATEGORIES</p>
-                    <a href="random">see all</a>
+                    <p className="see-all">see all</p>
                   </a>
                 </div>
                 <div className="our-categories-items">
@@ -181,38 +181,38 @@ export default function JumiaCloneFix() {
                 <div className="heading">
                   <a href="random">
                     <p>OUR SERVICES</p>
-                    <a href="random">see all</a>
+                    <p className="see-all">see all</p>
                   </a>
                 </div>
                 <div className="our-services-items">
                   <ul>
                     <li>
                       <a href="random">
-                      <i className="fa fa-star-half-o"></i>
+                        <i className="fa fa-star-half-o"></i>
                         <p>Jumia Prime</p>
                       </a>
                     </li>
                     <li>
                       <a href="random">
-                      <i className="fa fa-star-half-o"></i>
+                        <i className="fa fa-star-half-o"></i>
                         <p>Pay Airtime & Bills</p>
                       </a>
                     </li>
                     <li>
                       <a href="random">
-                      <i className="fa fa-star-half-o"></i>
+                        <i className="fa fa-star-half-o"></i>
                         <p>Pay Electricity Bills</p>
                       </a>
                     </li>
                     <li>
                       <a href="random">
-                      <i className="fa fa-star-half-o"></i>
+                        <i className="fa fa-star-half-o"></i>
                         <p>Pay Internet Bills</p>
                       </a>
                     </li>
                     <li>
                       <a href="random">
-                      <i className="fa fa-star-half-o"></i>
+                        <i className="fa fa-star-half-o"></i>
                         <p>Buy Data</p>
                       </a>
                     </li>
@@ -269,7 +269,7 @@ export default function JumiaCloneFix() {
         </div>
       </div>
 
-      {/* ==mobile== */}
+      {/*==============------------ ==mobile========------= */}
 
       <div className="second-section-mv mobile-view">
         <div className="search-bar">
@@ -354,7 +354,7 @@ export default function JumiaCloneFix() {
         </div>
       </div>
 
-      {/* ==mobile== */}
+      {/*==============------------ ==mobile========------= */}
 
       <div className="third-section-mv mobile-view">
         <p>Free Delivery In Lagos, Ibadan & Abuja</p>
