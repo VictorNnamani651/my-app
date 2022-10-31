@@ -132,7 +132,7 @@ div.first-section-dv {
 
 .third-section-dv {
   background-color: #fff;
-  box-shadow: 2px 5px 10px -12px black;
+  box-shadow: 0vw 2vw 1vw -2.4vw black;
 }
 
 .third-section-center {
@@ -146,24 +146,24 @@ div.first-section-dv {
 }
 
 a.logo-link img {
-  width: 100%;
-  height: 4em;
+  width:10vw;
+  display:block;
 }
 
 .searchBarXbtn input,
 .searchBarXbtn button {
-  padding: 0.5em;
-  font-size: large;
+  padding:1vw;
+  font-size:1.5vw;
   border-radius: 0.2em;
 }
 
 .searchBarXbtn button {
-  margin-left: 0.5em;
-  width: 4.5em;
+  margin-left: 0.5vw;
+  width:8vw;
   background-color: #f68b1e;
   border: 0px;
   color: whitesmoke;
-  box-shadow: 2px 5px 10px -7px black;
+  box-shadow:0.2vw 0.2vw 0.6vw -0.3vw black;
 }
 
 .searchBarXbtn button:hover {
@@ -172,14 +172,14 @@ a.logo-link img {
 }
 
 .desktop-view .fa-search {
-  border: 0.1em solid #c7c7cd;
-  border-radius: 0.3em;
-  padding-left: 0.8em;
+  border: 0.1vw solid #c7c7cd;
+  border-radius: 0.3vw;
+  padding-left: 1vw;
   color: #a19182;
 }
 
 .searchBarXbtn input {
-  width: 26em;
+  width:26vw;
   border: 0px;
 }
 
@@ -190,8 +190,8 @@ a.logo-link img {
 .account,
 .help,
 .cart {
-  margin-left: 1.5%;
-  font-size: 1em;
+  margin-left: 1.5vw;
+  font-size:1.5vw;
   position: relative;
 }
 
@@ -229,35 +229,35 @@ a.logo-link img {
 
 p.tSection {
   display: inline-block;
-  padding: 0 0.4em;
+  padding: 0 0.4vw;
   color: #767676;
-  font-size: 1.1em;
+  font-size: 1.5vw;
 }
 
 i.icon-g {
   color: #767676;
-  font-size: 1.5em;
+  font-size: 2vw;
 }
 
 i.fa-caret-down {
-  font-size: 1em;
+  font-size: 1.3vw;
 }
 
 .drop-down {
-  border-radius: 3%;
-  top: 110%;
+  border-radius:0.6vw;
+  top:3.1vw;
   position: absolute;
   background-color: #fff;
-  left: -50%;
-  width: 210%;
+  left: -5vw;
+  width: 19vw;
   z-index: 999999;
-  padding: 1% 0.5%;
-  box-shadow: 2px 5px 21px -3px black;
+  padding: 0.5vw 0.1vw;
+  box-shadow: 0.2vw 0.2vw 0.7vw -0.2vw black;
 }
 
 .signIn-btn-holder {
-  border-bottom: 2px solid #ededed;
-  padding: 7% 0%;
+  border-bottom: 0.3vw solid #ededed;
+  padding: 1vw 0vw;
   text-align: center;
 }
 
@@ -265,12 +265,12 @@ i.fa-caret-down {
   background-color: #f68b1e;
   color: white;
   border: 0px;
-  width: 60%;
-  box-shadow: 2px 5px 10px -7px black;
-  padding: 5% 0%;
-  border-radius: 5%;
+  width: 12vw;
+  box-shadow: 0.2vw 0.2vw 0.6vw -0.3vw black;
+  padding: 1vw 0vw;
+  border-radius: 0.5vw;
   font-family: "Inter Tight", sans-serif;
-  font-size: 1em;
+  font-size: 1.4vw;
 }
 
 .signIn:hover {
@@ -279,7 +279,7 @@ i.fa-caret-down {
 }
 
 .dropdown-options {
-  padding: 3%;
+  padding: 1vw;
   color: #695c5c;
 }
 
@@ -288,9 +288,9 @@ i.fa-caret-down {
 }
 
 .dropdown-options ul li {
-  margin-bottom: 3%;
+  margin-bottom: 1vw;
   list-style-type: none;
-  padding: 5% 8%;
+  padding: 0.7vw 1.5vw;
   display: flex;
   align-items: center;
 }
@@ -301,29 +301,28 @@ i.fa-caret-down {
 }
 
 .dropdown-options ul li i {
-  padding: 0%;
   flex: 2;
 }
 
 .dropdown-options ul li p {
-  padding-left: 8%;
+  padding-left:1vw;
   flex: 15;
-  font-size: 1em;
+  font-size:1.5vw;
 }
 
 .help .drop-down {
-  width: 13em;
+  width: 18vw;
 }
 
 .help-options {
-  border-bottom: 2px solid #ededed;
+  border-bottom: 0.2vw solid #ddcece;
   list-style-type: none;
   padding: 1%;
 }
 
 .help-options li {
-  padding: 6% 5%;
-  font-size: 0.9em;
+  padding: 0.95vw 0.9vw;
+  font-size: 1.35vw;
   color: #695c5c;
 }
 
@@ -335,19 +334,19 @@ i.fa-caret-down {
 .help-options-btn-holder {
   display: flex;
   justify-content: center;
-  padding: 7%;
+  padding:1vw;
 }
 
 .live-chat {
   background-color: #f68b1e;
   color: white;
-  border: 0px;
-  width: 80%;
-  box-shadow: 2px 5px 10px -7px black;
-  padding: 5% 0%;
-  border-radius: 0.4em;
+  border:0px;
+  width: 14vw;
+  box-shadow: 0.2vw 0.2vw 0.6vw -0.3vw black;
+  padding: 1vw 0vw;
+  border-radius: 0.4vw;
   font-family: "Inter Tight", sans-serif;
-  font-size: 0.9em;
+  font-size: 1.4vw;
   font-weight: bolder;
 }
 
@@ -357,15 +356,15 @@ i.fa-caret-down {
 }
 
 .live-chat i {
-  margin-right: 6%;
+  margin-right: 1vw;
   display: inline-block;
-  padding: 0% 4%;
-  font-size: 1.5em;
+  padding: 0vw 1vw;
+  font-size: 2vw;
 }
 
 .live-chat p {
   display: inline-block;
-  margin-right: 14%;
+  margin-right:2vw;
 }
 
 .hide {
@@ -378,7 +377,7 @@ i.fa-caret-down {
   display: none;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 751px) {
   .desktop-view {
     display: none;
   }
